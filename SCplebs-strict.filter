@@ -315,11 +315,11 @@ Show # Pinnacle Keys
 Show # Runes
 	BaseType == "Desert Rune" "Glacial Rune" "Storm Rune" "Iron Rune" "Body Rune" "Mind Rune" "Rebirth Rune" "Inspiration Rune" "Stone Rune" "Vision Rune"
 	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
+	SetTextColor 0 130 255 255
+	SetBorderColor 0 130 255 255
 	PlayAlertSound 16 300
-	MinimapIcon 0 Red Circle
-	PlayEffect Red
+	MinimapIcon 0 Blue Circle
+	PlayEffect Blue
 
 #--------------------------
 # Charms
