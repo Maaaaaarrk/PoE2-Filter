@@ -47,7 +47,7 @@ Show # Red Maps High
 	Class == "Waystones"
 	WaystoneTier >= 14
 	SetFontSize 45
-	SetBackgroundColor 40 0 0 255
+	SetBackgroundColor 80 0 0 255
 	SetBorderColor 255 0 0
 	PlayAlertSound 5 300
 	PlayEffect Red
@@ -58,7 +58,7 @@ Show # Red Maps Low
 	WaystoneTier >= 11
 	WaystoneTier <= 13
 	SetFontSize 45
-	SetBackgroundColor 20 0 0 255
+	SetBackgroundColor 80 0 0 200
 	SetBorderColor 255 0 0
 	PlayEffect Red
 	MinimapIcon 1 Red Star
@@ -69,7 +69,7 @@ Show # Yellow Maps
 	WaystoneTier >= 6
 	WaystoneTier <= 10
 	SetFontSize 45
-	SetBackgroundColor 20 20 0 255
+	SetBackgroundColor 80 80 0 200
 	SetBorderColor 255 255 0
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Square
@@ -80,7 +80,7 @@ Show # White Maps
 	WaystoneTier >= 1
 	WaystoneTier <= 5
 	SetFontSize 45
-	SetBackgroundColor 20 20 20 255
+	SetBackgroundColor 60 60 60 200
 	SetBorderColor 175 175 175
 	PlayEffect White
 	MinimapIcon 1 White Hexagon
