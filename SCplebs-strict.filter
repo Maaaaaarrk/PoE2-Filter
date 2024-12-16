@@ -537,6 +537,17 @@ SetBorderColor 255 207 132
 
 Show # Uncut Skill Gem
 	BaseType == "Uncut Skill Gem"
+	ItemLevel >= 19
+	SetFontSize 45
+	SetTextColor 0 255 0 255
+	SetBorderColor 0 255 0
+	SetBackgroundColor 0 125 0 200
+	PlayEffect Green
+	PlayAlertSound 10 300
+	MinimapIcon 0 Green Circle
+	
+Show # Uncut Skill Gem
+	BaseType == "Uncut Skill Gem"
 	ItemLevel >= 15
 	SetFontSize 45
 	SetTextColor 0 255 0 255
@@ -623,18 +634,29 @@ Show # Uncut Support Gem
 # Uncut Spirit Gem
 #--------------------------
 	
-Show # Uncut Skill Gem
+
+Show # Uncut Spirit Gem
+	BaseType == "Uncut Spirit Gem"
+	ItemLevel >= 18
+	SetFontSize 45
+	SetTextColor 0 255 0 255
+	SetBorderColor 0 255 0
+	SetBackgroundColor 0 125 200
+	PlayEffect Green
+	PlayAlertSound 10 300
+	MinimapIcon 0 Green Circle	
+	
+Show # Uncut Spirit Gem
 	BaseType == "Uncut Spirit Gem"
 	ItemLevel >= 15
 	SetFontSize 45
 	SetTextColor 0 255 0 255
 	SetBorderColor 0 255 0
-	SetBackgroundColor 0 0 0
 	PlayEffect Green
 	PlayAlertSound 10 300
 	MinimapIcon 0 Green Circle
 	
-Show # Uncut Skill Gem
+Show # Uncut Spirit Gem
 	BaseType == "Uncut Spirit Gem"
   ItemLevel >= 10
 	SetFontSize 35
@@ -643,7 +665,7 @@ Show # Uncut Skill Gem
 	SetBackgroundColor 0 0 0
 	MinimapIcon 1 Green Circle
 	
-Show # Uncut Skill Gem
+Show # Uncut Spirit Gem
 	BaseType == "Uncut Spirit Gem"
 	ItemLevel < 10
 	SetFontSize 20
