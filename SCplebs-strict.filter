@@ -694,7 +694,7 @@ Show # Gems
 #--------------------------	
 	
 Show
-  BaseType == "Amethyst Ring" "Sapphire Ring" "Ornate belt" "Utility belt"
+  BaseType == "Amethyst Ring" "Sapphire Ring" "Ornate Belt" "Heavy Belt" "Jade Amulet" "Stellar Amulet" "Solar Amulet"
 	Rarity Normal
 	AreaLevel >= 65	
 	SetTextColor 255 0 125 255
