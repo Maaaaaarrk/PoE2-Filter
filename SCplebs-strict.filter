@@ -692,9 +692,10 @@ Show # Gems
 #--------------------------
 # Chance orb
 #--------------------------	
+# "Amethyst Ring" "Sapphire Ring" "Ornate Belt" "Heavy Belt" "Jade Amulet" "Stellar Amulet" "Solar Amulet"
 	
 Show
-  BaseType == "Amethyst Ring" "Sapphire Ring" "Ornate Belt" "Heavy Belt" "Jade Amulet" "Stellar Amulet" "Solar Amulet"
+  BaseType == "Sapphire Ring" "Heavy Belt" "Stellar Amulet"
 	Rarity Normal
 	AreaLevel >= 65	
 	SetTextColor 255 0 125 255
@@ -860,16 +861,15 @@ Show # Rare Jewellery
 
 Show # Rares
 	Rarity Rare
-	SetFontSize 45
+	SetFontSize 30
   SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0
 	SetBorderColor 255 255 119
-	MinimapIcon 2 Yellow Square
 	
 Show # Magic Jewellery
 	Rarity  Magic
 	Class == "Amulets" "Rings" "Belts"
-	SetFontSize 45
+	SetFontSize 40
 	SetTextColor 0 75 250 255
 	SetBorderColor 0 75 250 255
 	SetBackgroundColor 0 20 40 255
@@ -885,11 +885,10 @@ Show # Magic
 Show # Normal Jewellery
 	Rarity Normal Magic
 	Class == "Amulets" "Rings" "Belts"
-	SetFontSize 45
+	SetFontSize 30
 	SetTextColor 180 180 180
 	SetBackgroundColor 0 0 0
   SetBorderColor 180 180 180
-  MinimapIcon 1 White Triangle
 	
 Show # Normal
 	Rarity Normal
