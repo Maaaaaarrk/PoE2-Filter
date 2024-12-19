@@ -325,8 +325,9 @@ Show # Runes
 # Charms
 #--------------------------
 
-Show # Charms
+Show # Charms quality
 	Class == "Charm"
+  	Quality > 0
 	SetFontSize 45
 	SetTextColor 191 0 255
 	SetBorderColor 191 0 255
@@ -334,6 +335,14 @@ Show # Charms
 	PlayAlertSound 16 300
 	MinimapIcon 0 Purple Circle
 	PlayEffect Purple
+
+
+Show # Charms other
+	Class == "Charm"
+	SetFontSize 28
+	SetTextColor 191 0 255
+	SetBorderColor 191 0 255
+	SetBackgroundColor  20 20 0
 
 #--------------------------
 # Gold
@@ -791,15 +800,47 @@ Show # Good Bases - Normal
 # Show Uniques
 #--------------------------	
 
-Show # Uniques
+
+Show # T1 Uniques
+   BaseType == "Heavy Belt" "Silk Slippers" "Armoured Cap" "Conqueror Plate" "Fine Bracers" "Ornate Belt" "Jewelled Gloves" "Incense Relic" "Time-Lost Diamond" "Ring" "Chiming Staff" "Utility Belt" "Grand Visage" "Grand Regalia" "Garment" "Furtive Wraps" "Crucible Tower Shield" "Ultimate Life Flask"
 	Rarity Unique
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
-	SetBackgroundColor 175 96 37 255
+	SetBackgroundColor 255 130 0 255
 	PlayAlertSound 1 300
 	PlayEffect Yellow
 	MinimapIcon 0 Yellow Star
+
+Show  # T2 Uniques
+    BaseType == "Smuggler Coat" "Burnished Gauntlets" "Felt Cap" "Tribal Mask" "Ironclad Vestments" "Lattice Sandals" "Threaded Shoes" "Lace Hood" "Altar Robe" "Stone Tower Shield" "Velour Shoes" "Grand Manchettes" "Grand Cuisses"
+    Rarity Unique
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 175 75 0 255
+	PlayAlertSound 1 300
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+	
+
+Show   # Multi-Unique Bases
+    BaseType == "Gold Ring" "Stellar Amulet" "Solar Amulet" "Wide Belt" "Amethyst Ring" "Ruby Ring" "Topaz Ring" "Amber Amulet" "Emerald Ring" "Jade Amulet" "Lazuli Ring" "Sapphire Ring" "Gold Amulet" "Pearl Ring" "Crimson Amulet" "Lapis Amulet" "Rawhide Belt" "Azure Amulet" "Omen Crest Shield" "Chain Tiara" "Linen Wraps" "Silk Robe" "Explorer Armour" "Shrine Sceptre" "Moulded Mitts"
+    Rarity Unique
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 175 75 0 255
+	PlayAlertSound 1 300
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+	
+Show # Uniques
+	Rarity Unique
+	SetFontSize 28
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 110 50 0 255
 	
 #--------------------------
 # Show sockets and quality
