@@ -29,6 +29,7 @@ Hide # CURRENCY - SCROLL OF WISDOM
 #--------------------------
 
 	
+	
 Continue
 	Class == "Waystones"
 	Rarity == Rare
@@ -50,6 +51,9 @@ Show # Red Maps High
 	SetFontSize 45
 	SetBackgroundColor 80 0 0 255
 	SetBorderColor 255 0 0
+	PlayAlertSound 5 300
+	PlayEffect Red
+	MinimapIcon 1 Red Triangle
 
 Show # Red Maps Low
 	Class == "Waystones"
@@ -83,7 +87,7 @@ SetBorderColor 255 255 255
 PlayAlertSound 4 300
 PlayEffect White
 MinimapIcon 1 White Square
-SetFontSize 28
+SetFontSize 40
 	
 #--------------------------
 # Simulacrum
