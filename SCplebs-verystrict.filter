@@ -21,8 +21,8 @@ Show # QUEST ITEMS
 # Show Scroll of Wisdom
 #--------------------------
 
-Hide # CURRENCY - SCROLL OF WISDOM
-	BaseType == "Scroll of Wisdom"
+Hide
+BaseType "Scroll of Wisdom"
 	
 #--------------------------
 # Waystones
